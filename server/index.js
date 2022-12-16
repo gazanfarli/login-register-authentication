@@ -13,7 +13,7 @@ app.listen(4000, () => {
 
 mongoose.set('strictQuery', false);
 
-mongoose.connect('mongodb+srv://gazanfarli:3539930809@cluster0.irg6lq1.mongodb.net/loginApp?retryWrites=true&w=majority', {
+mongoose.connect('YourConnectionString', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 }).then(() => {
